@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix TT StudyFlow – Quản lý học tập",
+  "description": "Nền tảng quản lý học tập thông minh: lịch học \u0026 thi, bài tập, đồng hồ tập trung Pomodoro và thư viện tài liệu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

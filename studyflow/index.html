@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>StudyFlow AI – Quản lý học tập thông minh</title>
+    <meta name="description" content="Nền tảng quản lý học tập tích hợp AI: lịch học & thi, bài tập, đồng hồ Pomodoro, và AI Studio hỗ trợ tâm lý, gia sư, tóm tắt tài liệu." />
+    <meta property="og:title" content="StudyFlow AI – Quản lý học tập thông minh" />
+    <meta property="og:description" content="Nền tảng quản lý học tập tích hợp AI: lịch học & thi, bài tập, đồng hồ Pomodoro, và AI Studio hỗ trợ tâm lý, gia sư, tóm tắt tài liệu." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/logo_studyflow_mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('studyflow_theme');
+          var isDark = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans antialiased bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan to fix the avatar movement bug in the Study Goals map and implement new AI-powered study planning features.\n\nKey fixes:\n- Refactor `GameQuestMap.tsx` to use derived `currentMilestoneIndex` directly for avatar positioning, ensuring smooth transitions and fixing the \"stuck\" avatar bug.\n- Enhance star visibility in the map nodes.\n- Implement a \"Study Roadmap Survey\" modal to collect user preferences (focus subject, target hours, free time).\n- Integrate Gemini API to analyze survey data and suggest optimal study slots.\n- Add functionality to sync suggested slots to the calendar.\n- Implement \"Priority Subject\" detection in the AI analysis section.",
+  "updatedAt": "2026-11-02T16:45:57.312881383Z",
+  "requestFeedback": true,
+  "userFacing": true
+}
